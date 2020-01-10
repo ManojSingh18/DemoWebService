@@ -5,15 +5,22 @@ import java.util.Date;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel(description = "All details about the user")
 public class User {
 
-	
+	@ApiModelProperty(notes = "auto-generated value")
 	private Integer id;
 	
 	@Size(min = 2,message = "Name Should have atleast 2 char")
+	@ApiModelProperty(notes = "Name Should have atleast 2 char")	
 	private String name;
 	
+	
 	@Past
+	@ApiModelProperty(notes = "Birth date should not be the current date")
 	private Date DOB;
 
 	public Integer getId() {
