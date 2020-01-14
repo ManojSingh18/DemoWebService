@@ -8,8 +8,8 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-@Repository
-//@Component
+//@Repository
+@Component
 public class UserDaoService {
 
 	private static int userCount=3;

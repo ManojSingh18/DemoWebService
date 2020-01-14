@@ -30,6 +30,16 @@
 		</dependency>
 		
 		<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+</dependency>
+
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
@@ -57,10 +67,10 @@
         </dependency> -->
    
    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
-		<dependency>
+		<!-- <dependency>
     		<groupId>com.fasterxml.jackson.dataformat</groupId>
     		<artifactId>jackson-dataformat-xml</artifactId>
-   		</dependency>
+   		</dependency> -->
    
    
    			<dependency>
